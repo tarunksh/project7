@@ -44,7 +44,7 @@
     <target name="test3">
       <!-- Upload the contents of the "mypkg" package -->
       <sf:deploy username="${sf.username}" password="${sf.password}" maxPoll="${sf.maxPoll}" deployRoot="codepkg" rollbackOnError="true" 
-        testLevel="RunSpecifiedTests" checkOnly="true">
+        testLevel="RunSpecifiedTests" checkOnly="false">
     <runTest>TestHelloWorldClassTwo</runTest>
   </sf:deploy>
     </target>
